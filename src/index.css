@@ -1,10 +1,10 @@
-body {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-header {
+.Header {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,22 +18,28 @@ header {
 
 .maya {
   height: 50px;
-  position: sticky;
+  position: fixed;
+  bottom: 15vh;
+  right: 0;
   display: block;
   border-radius: 50%;
   border: 2px solid black;
 }
 
-h1 {
+.Body {
   height: 70vh;
   background: linear-gradient(180deg, rgba(221, 181, 1, 0) 0%, rgba(248, 177, 51, 0.8) 66.67%);
 }
 
-footer {
+.Footer {
   height: 15vh;
   background-image: url("images/bgyellow.png");
   transform: rotate(180deg);
   background-repeat: no-repeat;
   background-size: contain;
   background-size: 80vw;
+}
+
+#root {
+  height: 100vh;
 }
