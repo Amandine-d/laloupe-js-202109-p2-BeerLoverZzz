@@ -5,8 +5,8 @@ import Craft from './components/Craft';
 import Favourites from './components/Favourites';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import Header from './components/Header';
 import Bee from './components/Bee';
+import Header from './components/Header';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <Header />
       <div className="Body">
         <Switch>
-          <Route exact path="/" component={Home} />
+          <Route path="/home" component={Home} />
           <Route path="/brewery" component={Brewery} />
           <Route path="/craft" component={Craft} />
           <Route path="/favourites" component={Favourites} />

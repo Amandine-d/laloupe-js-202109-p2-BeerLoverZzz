@@ -1,34 +1,52 @@
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import imgTitle from '../images/title-beer-loverzzz.png';
-import imgLogo from '../images/bee-logo.png';
-import imgMenu from '../images/burger.png';
+import './Header.css';
 
 function Header() {
+  const [showLinks, setShowLinks] = useState(false);
+  const handleShowLinks = () => {
+    setShowLinks(!showLinks);
+  };
   return (
     <div className="Header">
-      <img src={imgLogo} alt="logo" className="logo" />
-      <nav className="navbar">
-        <ul>
-          <img src={imgTitle} alt="title" className="title" />
-          <li className="nav-item">
-            <NavLink activeClassName="Home selected" to="/">
+      <section className="title">
+        <h1>BEER LOVERZzz</h1>
+      </section>
+      <nav className={`navbar ${showLinks ? 'show-nav' : 'hide-nav'}`}>
+        <ul className="navbar__links">
+          <li className="navbar__items">
+            <NavLink activeClassName="navbar__link" to="Home">
               Home
             </NavLink>
-            <NavLink activeClassName="Brewery selected" to="Brewery">
+          </li>
+          <li className="navbar__items">
+            <NavLink activeClassName="navbar__link" to="Brewery">
               Brewery
             </NavLink>
-            <NavLink activeClassName="Favourites selected" to="Favourites">
+          </li>
+          <li className="navbar__items">
+            <NavLink activeClassName="navbar__link" to="Favourites">
               Favourites
             </NavLink>
-            <NavLink activeClassName="Craft selected" to="Craft">
+          </li>
+          <li className="navbar__items">
+            <NavLink activeClassName="navbar__link" to="Craft">
               Craft
             </NavLink>
-            <NavLink activeClassName="Contact selected" to="Contact">
+          </li>
+          <li className="navbar__items">
+            <NavLink activeClassName="navbar__link" to="Contact">
               Contact
             </NavLink>
           </li>
-          <img src={imgMenu} alt="burger-menu" className="burgerMenu" />
         </ul>
+        <button
+          className="navbar__burger"
+          onClick={handleShowLinks}
+          type="button"
+        >
+          <span className="burger-bar" />
+        </button>
       </nav>
     </div>
   );
