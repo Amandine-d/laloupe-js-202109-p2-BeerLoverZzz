@@ -1,11 +1,12 @@
 import { NavLink } from 'react-router-dom';
-import img from '../images/title-beer-loverzzz.png';
 
 function Header() {
   return (
     <div className="Header">
+      <section className="title">
+        <h1>BEER LOVERZzz</h1>
+      </section>
       <ul>
-        <img src={img} alt="title" className="title" />
         <li>
           <NavLink activeClassName="Home selected" to="/">
             Home
