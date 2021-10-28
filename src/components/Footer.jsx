@@ -1,7 +1,13 @@
+import img from '../images/bgyellow.png';
+
 function Footer() {
   return (
     <div className="Footer">
-      <p className="Footer">Footer</p>
+      <ul>
+        <img src={img} alt="title" className="imageFooter" />
+        <li>Our Networks</li>
+        <li>Untappd:</li>
+      </ul>
     </div>
   );
 }
