@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-/* #root {
-  height: 100vh;
-} */
-
 /* HEADER */
 
 .Header {
@@ -43,7 +39,7 @@ ul li {
 /* BODY  */
 
 .Body {
-  height: 85vh;
+  height: 100%;
   background:
     linear-gradient(
       180deg,
@@ -66,7 +62,7 @@ ul li {
 
 .Footer {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   bottom: 0;
   height: 8vh;
   background-image: url('images/bgyellowinvert.png');
@@ -75,6 +71,12 @@ ul li {
   box-shadow: 5px 5px 25px black;
   background-size: 70vw 40vh;
   background-position: right -10% top 50%;
+}
+
+.Footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .Footer h3 {
