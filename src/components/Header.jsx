@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import './Header.css';
 
-
 function Header() {
   const [showLinks, setShowLinks] = useState(false);
   const handleShowLinks = () => {

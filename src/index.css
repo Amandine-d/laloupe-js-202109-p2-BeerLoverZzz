@@ -20,14 +20,6 @@
   background-position: left -10% top 50%;
 }
 
-.burgerMenu {
-  height: 40px;
-  background: transparent;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-
 .title {
   display: block;
   padding: 5px;
@@ -65,20 +57,18 @@
   border: 2px solid black;
 }
 
-
-
 .team__img {
   width: 80vw;
 }
 
-
 /* FOOTER */
 
- .Footer {
-  position: absolute;
+.Footer {
+  /* position: absolute; */
   display: flex;
   flex-wrap: wrap;
-  bottom: 0;
+
+  /* bottom: 0; */
   height: 8vh;
   background-image: url('images/bgyellowinvert.png');
   background-repeat: no-repeat;
@@ -99,10 +89,9 @@
 }
 
 .link li {
-  font-size: 12px;
+  font-size: 15px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
 
 @media screen and (min-width: 900px) {
   .Header {
