@@ -13,7 +13,7 @@
   justify-content: space-around;
   height: 8vh;
   background-color: white;
-  box-shadow: 5px 5px 25px black;
+  box-shadow: 5px 5px 20px black;
   background-image: url('images/bgyellow.png');
   background-repeat: no-repeat;
   background-size: 70vw 40vh;
@@ -33,20 +33,16 @@
   padding: 5px;
   height: 4.5vh;
   text-align: center;
-
-  /* font-family: Bebas Neue; */
   font-size: 1rem;
   border: solid 1px;
   color: black;
-
-  /* text-shadow: 5px 5px 25px black; */
   box-shadow: 5px 5px 15px goldenrod;
 }
 
 /* BODY  */
 
 .Body {
-  height: 85vh;
+  height: 100%;
   background:
     linear-gradient(
       180deg,
@@ -81,17 +77,32 @@
  .Footer {
   position: absolute;
   display: flex;
-  flex-direction: column;
-  width: 100%;
+  flex-wrap: wrap;
   bottom: 0;
   height: 8vh;
-  background-image: url('images/bgyellow.png');
+  background-image: url('images/bgyellowinvert.png');
   background-repeat: no-repeat;
-  background-color: red;
+  background-color: white;
   box-shadow: 5px 5px 25px black;
   background-size: 70vw 40vh;
   background-position: right -10% top 50%;
-} 
+}
+
+.Footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.Footer h3 {
+  font-size: 1rem;
+}
+
+.link li {
+  font-size: 12px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 
 @media screen and (min-width: 900px) {
   .Header {
@@ -102,6 +113,19 @@
   .title {
     height: 6.5vh;
     font-size: 1.5rem;
+  }
+
+  .Footer {
+    height: 10vh;
+    background-size: 70vw 47vh;
+  }
+
+  .Footer h3 {
+    font-size: 1.5rem;
+  }
+
+  .link li {
+    font-size: 18px;
   }
 }
 
@@ -114,5 +138,18 @@
   .title {
     height: 8vh;
     font-size: 2rem;
+  }
+
+  .Footer {
+    height: 11vh;
+    background-size: 70vw 57vh;
+  }
+
+  .Footer h3 {
+    font-size: 1.5rem;
+  }
+
+  .link li {
+    font-size: 20px;
   }
 }
