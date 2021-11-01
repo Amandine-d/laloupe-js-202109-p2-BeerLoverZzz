@@ -4,9 +4,12 @@ ul {
   margin: 0;
 }
 
-.navbar__links li a {
+.navbar__link {
   text-decoration: none;
-  font-size: 30px;
+  display: block;
+  padding: 1.5rem;
+  font-size: 15vw;
+  color: inherit;
 }
 
 .navbar {
@@ -31,16 +34,8 @@ ul {
   height: 100vh;
   padding: 2rem;
   visibility: hidden;
-  background-color: transparent;
+  background-color: black;
   transition: all 0.8s ease-out;
-}
-
-.navbar__link {
-  display: block;
-  padding: 1.5rem;
-  font-size: 15vw;
-  text-decoration: none;
-  color: inherit;
 }
 
 .navbar__burger {
