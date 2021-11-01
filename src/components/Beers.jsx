@@ -19,9 +19,9 @@ function Beers() {
   return (
     <div>
       <button type="button" onClick={getBeer}>
-        New Beer
+        Another!
       </button>
-      <DisplayBeer beer={beer} setBeer={setBeer} />
+      <DisplayBeer beer={beer} />
     </div>
   );
 }

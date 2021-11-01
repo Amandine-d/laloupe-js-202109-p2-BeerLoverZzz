@@ -1,7 +1,7 @@
 function Craft() {
   return (
     <div>
-      <p>This is home</p>
+      <p style={{ height: '80vh' }}>This is home</p>
     </div>
   );
 }

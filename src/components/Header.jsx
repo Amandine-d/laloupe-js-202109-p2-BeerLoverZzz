@@ -15,27 +15,47 @@ function Header() {
       <nav className={`navbar ${showLinks ? 'show-nav' : 'hide-nav'}`}>
         <ul className="navbar__links">
           <li className="navbar__items">
-            <NavLink activeClassName="navbar__link" to="Home">
+            <NavLink
+              activeClassName="navbar__link"
+              to="Home"
+              className="navlink__header"
+            >
               Home
             </NavLink>
           </li>
           <li className="navbar__items">
-            <NavLink activeClassName="navbar__link" to="Brewery">
+            <NavLink
+              activeClassName="navbar__link"
+              to="Brewery"
+              className="navlink__header"
+            >
               Brewery
             </NavLink>
           </li>
           <li className="navbar__items">
-            <NavLink activeClassName="navbar__link" to="Favourites">
+            <NavLink
+              activeClassName="navbar__link"
+              to="Favourites"
+              className="navlink__header"
+            >
               Favourites
             </NavLink>
           </li>
           <li className="navbar__items">
-            <NavLink activeClassName="navbar__link" to="Craft">
+            <NavLink
+              activeClassName="navbar__link"
+              to="Craft"
+              className="navlink__header"
+            >
               Craft
             </NavLink>
           </li>
           <li className="navbar__items">
-            <NavLink activeClassName="navbar__link" to="Contact">
+            <NavLink
+              activeClassName="navbar__link"
+              to="Contact"
+              className="navlink__header"
+            >
               Contact
             </NavLink>
           </li>
