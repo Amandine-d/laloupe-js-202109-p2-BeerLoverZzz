@@ -1,7 +1,7 @@
 function Contact() {
   return (
     <div>
-      <p>This is Contact</p>
+      <p style={{ height: '80vh' }}>This is Contact</p>
     </div>
   );
 }
