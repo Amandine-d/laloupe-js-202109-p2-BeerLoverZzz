@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import DisplayBeer from './DisplayBeer';
+import GetBeer from './GetBeer';
 
 const sampleBeer = {
   image_url: 'https://images.punkapi.com/v2/2.png',
@@ -22,6 +23,7 @@ function Beers() {
         Another!
       </button>
       <DisplayBeer beer={beer} />
+      <GetBeer />
     </div>
   );
 }

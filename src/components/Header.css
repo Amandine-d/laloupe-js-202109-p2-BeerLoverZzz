@@ -4,6 +4,10 @@ ul {
   margin: 0;
 }
 
+#bee__logo {
+  height: 8vh;
+}
+
 .navlink__header {
   font-size: 10vw;
   text-decoration: none;
