@@ -31,7 +31,6 @@ function App() {
             </>
           )}
         </Switch>
-        {isAdult && <Bee />}
       </div>
       {isAdult && <Footer />}
     </div>
