@@ -4,6 +4,13 @@ ul {
   margin: 0;
 }
 
+.navbar__link {
+  text-decoration: none;
+  display: block;
+  padding: 1.5rem;
+  font-size: 15vw;
+  color: inherit;
+
 #bee__logo {
   height: 8vh;
 }
@@ -76,6 +83,7 @@ ul {
   height: 3px;
   position: absolute;
   border-radius: 3px;
+  background: rgb(2, 99, 2);
   background: green;
   transition: all 0.5s ease-in-out;
 }

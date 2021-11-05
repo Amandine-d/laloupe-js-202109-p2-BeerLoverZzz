@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+li a {
+  text-decoration: none;
+  list-style: none;
+}
+
 /* HEADER */
 
 .Header {
@@ -47,16 +52,6 @@
   text-align: center;
 }
 
-.maya {
-  display: block;
-  position: fixed;
-  height: 6vh;
-  right: 8%;
-  bottom: 13vh;
-  border-radius: 50%;
-  border: 2px solid black;
-}
-
 .team__img {
   width: 80vw;
 }
@@ -64,11 +59,11 @@
 /* FOOTER */
 
 .Footer {
-  /* position: absolute; */
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
 
-  /* bottom: 0; */
+  /* justify-content: flex-start; */
   height: 8vh;
   background-image: url('images/bgyellowinvert.png');
   background-repeat: no-repeat;
@@ -76,16 +71,12 @@
   box-shadow: 5px 5px 25px black;
   background-size: 70vw 40vh;
   background-position: right -10% top 50%;
-}
-
-.Footer ul {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+  contain: content;
 }
 
 .Footer h3 {
   font-size: 1rem;
+  width: 30vw;
 }
 
 .link li {
