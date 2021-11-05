@@ -1,0 +1,25 @@
+.bee__img__bottom {
+  display: block;
+  position: fixed;
+  height: 6vh;
+  right: 8%;
+  bottom: 13vh;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.bee__links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: -100vw;
+  visibility: hidden;
+}
+
+.bee__links .open__bee__menu {
+  width: 50vw;
+  right: 0;
+  visibility: visible;
+}

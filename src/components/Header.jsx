@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import './Header.css';
+import logo from '../images/bee-logo.png';
 
 function Header() {
   const [showLinks, setShowLinks] = useState(false);
@@ -9,6 +10,7 @@ function Header() {
   };
   return (
     <div className="Header">
+      <img src={logo} alt="bee-logo" id="bee__logo" />
       <section className="title">
         <h1>BEER LOVERZzz</h1>
       </section>

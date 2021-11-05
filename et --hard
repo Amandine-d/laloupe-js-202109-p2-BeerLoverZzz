@@ -1,0 +1,133 @@
+[33mcommit 71db334a65e7b8a5af0694ff7492a070a8807bfc[m[33m ([m[1;36mHEAD -> [m[1;32mbeerlist[m[33m, [m[1;31morigin/beerlist[m[33m)[m
+Author: Amandine <amandine.druart@gmail.com>
+Date:   Mon Nov 1 19:57:38 2021 +0100
+
+    Added height for the pages + changed colour and text-size menu
+
+[33mcommit 69e692500d61bd6d9218d81b93de8de78cd90023[m
+Author: Amandine <amandine.druart@gmail.com>
+Date:   Mon Nov 1 11:52:37 2021 +0100
+
+    Api ok, random beers showing on brewery page
+
+[33mcommit d27f0638843c9cd2dcc6d61b94023b7353b88f44[m[33m ([m[1;31morigin/dev[m[33m, [m[1;32mdev[m[33m)[m
+Merge: 8f2ed79 2c11220
+Author: Amandine <84130470+Amandine-d@users.noreply.github.com>
+Date:   Fri Oct 29 11:26:25 2021 +0200
+
+    Merge pull request #6 from WildCodeSchool/modif
+    
+    modif
+
+[33mcommit 2c11220cc10fb88d56845aa4a1069782cf396f36[m
+Author: Sidney <sidney.croset@hotmail.com>
+Date:   Fri Oct 29 11:22:19 2021 +0200
+
+    modif
+
+[33mcommit 8f2ed79eb9d6bd0eeb4e10dea9cd6cb7bdc7e209[m
+Merge: 5ba3cdf fbc0d78
+Author: Amandine <84130470+Amandine-d@users.noreply.github.com>
+Date:   Fri Oct 29 10:56:45 2021 +0200
+
+    Merge pull request #4 from WildCodeSchool/footer
+    
+    Ajout
+
+[33mcommit fbc0d78c23c2f0d82c706128629ae4356dcb6bb6[m
+Merge: 01527ee 5ba3cdf
+Author: Amandine <84130470+Amandine-d@users.noreply.github.com>
+Date:   Fri Oct 29 10:55:14 2021 +0200
+
+    Merge branch 'dev' into footer
+
+[33mcommit 5ba3cdfbb598b41079ec79dc2da947d93c2df029[m
+Merge: 87b115f faf4ad8
+Author: Sidney <78179881+Sideyn@users.noreply.github.com>
+Date:   Fri Oct 29 10:52:03 2021 +0200
+
+    Merge pull request #5 from WildCodeSchool/menu
+    
+    Menu
+
+[33mcommit faf4ad81709d55a704529d63eda6bfe3c430e029[m
+Merge: 0af094b 87b115f
+Author: Sidney <78179881+Sideyn@users.noreply.github.com>
+Date:   Fri Oct 29 10:50:09 2021 +0200
+
+    Merge branch 'dev' into menu
+
+[33mcommit 01527ee4b5cc9213a323a4c881116fb026a0bcd4[m
+Author: Sidney <sidney.croset@hotmail.com>
+Date:   Fri Oct 29 10:38:04 2021 +0200
+
+    modification sur le footer
+
+[33mcommit 0af094bf374b1f08664464f6ebd110f3893e5490[m[33m ([m[1;31morigin/menu[m[33m)[m
+Author: Amandine <amandine.druart@gmail.com>
+Date:   Thu Oct 28 21:14:17 2021 +0200
+
+    Added burger menu
+
+[33mcommit 3c9bfd90efefeebf0ff76bc6f94f1e83fcdf383b[m
+Author: Sidney <sidney.croset@hotmail.com>
+Date:   Thu Oct 28 17:40:11 2021 +0200
+
+    Ajout du background et  des 3 liens
+
+[33mcommit 87b115f2ce163073150b58edcbfacebf65662b00[m
+Merge: 491eea0 017cb8e
+Author: Amandine <84130470+Amandine-d@users.noreply.github.com>
+Date:   Thu Oct 28 16:14:21 2021 +0200
+
+    Merge pull request #3 from WildCodeSchool/header
+    
+    Background et Nom du site
+
+[33mcommit 017cb8ecb73b86a0f995c5741eac142a9d887dcf[m
+Author: Sidney <sidney.croset@hotmail.com>
+Date:   Thu Oct 28 15:28:57 2021 +0200
+
+    Ajout du background avec le Nom du site (police à voir) tout en responsive design, en attente du logo ainsi que le burger menu pour pouvoir terminer le header
+
+[33mcommit eaef7c3fa1e4f36aa9c873dac02aa7ce8416658c[m
+Author: Amandine <amandine.druart@gmail.com>
+Date:   Thu Oct 28 08:39:47 2021 +0200
+
+    Changes for the CSS and json
+
+[33mcommit 491eea0e094a6110313ae2f15c9faf22fcd9fb52[m
+Merge: a8a0ab6 69f4e47
+Author: E-Fuche <90394415+EnzoFuche@users.noreply.github.com>
+Date:   Wed Oct 27 14:02:27 2021 +0200
+
+    Merge pull request #2 from WildCodeSchool/navig
+    
+    Added NavLinks
+
+[33mcommit 69f4e4755b54731c6540306d3d794a764987d765[m[33m ([m[1;31morigin/navig[m[33m)[m
+Author: Amandine <amandine.druart@gmail.com>
+Date:   Wed Oct 27 13:12:40 2021 +0200
+
+    Added NavLinks
+
+[33mcommit a8a0ab68f0b194926929b8de350f8cc11b0ca2f6[m
+Merge: 9d577d8 7d5e986
+Author: Amandine <84130470+Amandine-d@users.noreply.github.com>
+Date:   Fri Oct 22 10:22:25 2021 +0200
+
+    Merge pull request #1 from WildCodeSchool/home
+    
+    Add images + components Footer/Header/Bee/Home
+
+[33mcommit 7d5e98602abfb7959710c33f8746c4cd7ce8d969[m[33m ([m[1;31morigin/home[m[33m)[m
+Author: Amandine <amandine.druart@gmail.com>
+Date:   Fri Oct 22 10:00:07 2021 +0200
+
+    Add images + components Footer/Header/Bee/Home
+
+[33mcommit 9d577d89ae3cfe9ba607c988ed9eb54592954fbc[m
+Author: Xavier <46873220+Xgt72@users.noreply.github.com>
+Date:   Wed Oct 20 15:12:57 2021 +0200
+
+    Initialize dev

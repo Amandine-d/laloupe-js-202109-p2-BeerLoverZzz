@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function ChoseBeer(img, name, description, tagline) {
+function BeerItem(img, name, description, tagline) {
   const [favourite, setFavourite] = useState(false);
   const handleClickFavourite = () => setFavourite(!favourite);
   const handleKeyUp = () => setFavourite(!favourite);
@@ -28,4 +28,5 @@ function ChoseBeer(img, name, description, tagline) {
     </div>
   );
 }
-export default ChoseBeer;
+
+export default BeerItem;
