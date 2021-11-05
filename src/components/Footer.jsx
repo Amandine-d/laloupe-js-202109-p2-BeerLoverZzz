@@ -5,24 +5,18 @@ function Footer() {
       <div className="link">
         <ul>
           <li>
-            <a href="https://untappd.com/" target="blank">
-              Untappd
+            <a href="https://untappd.com/user/Double_chin" target="blank">
+              Untappd Amandine
             </a>
           </li>
           <li>
-            <a
-              href="https://www.youtube.com/channel/UCwzxu1j19ICnfW5zrBvUw-w"
-              target="blank"
-            >
-              Une bière et Jivay
+            <a href="https://untappd.com/user/sidney_yendis" target="blank">
+              Untappd Sidney
             </a>
           </li>
           <li>
-            <a
-              href="https://www.happybeertime.com/blog/2017/11/02/guide-complet-faire-1ere-biere-a-maison/"
-              target="blank"
-            >
-              Comment Brasser sa bière
+            <a href="https://untappd.com/user/DoolbY" target="blank">
+              Untappd Enzo
             </a>
           </li>
         </ul>

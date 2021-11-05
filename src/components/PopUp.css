@@ -1,0 +1,14 @@
+.PopUp {
+  border: 2px solid;
+  height: 50vh;
+}
+
+.grpButton {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button {
+  height: 5vh;
+  width: 5vw;
+}
