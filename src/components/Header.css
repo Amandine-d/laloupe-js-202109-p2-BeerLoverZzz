@@ -10,6 +10,23 @@ ul {
   padding: 1.5rem;
   font-size: 15vw;
   color: inherit;
+
+#bee__logo {
+  height: 8vh;
+}
+
+.navlink__header {
+  font-size: 10vw;
+  text-decoration: none;
+  color: rgb(173, 173, 13);
+}
+
+.navbar__link {
+  text-decoration: none;
+  display: block;
+  padding: 1.5rem;
+  font-size: 15vw;
+  color: white;
 }
 
 .navbar {
@@ -19,7 +36,6 @@ ul {
   justify-content: center;
   min-height: 75px;
   background-color: rgb(8, 1, 2);
-  color: white;
 }
 
 .navbar__links {
@@ -47,7 +63,6 @@ ul {
   height: 40px;
   background: transparent;
   border: none;
-  color: inherit;
 }
 
 .show-nav .navbar__links {
@@ -69,6 +84,7 @@ ul {
   position: absolute;
   border-radius: 3px;
   background: rgb(2, 99, 2);
+  background: green;
   transition: all 0.5s ease-in-out;
 }
 

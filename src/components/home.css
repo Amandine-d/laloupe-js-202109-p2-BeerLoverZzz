@@ -1,0 +1,17 @@
+.home__page {
+  height: auto;
+}
+
+.team__img {
+  width: 50vw;
+  height: 50vh;
+  border-radius: 10px;
+}
+
+.team__beers {
+  justify-content: center;
+}
+
+.choice__beer__img {
+  height: 30vh;
+}

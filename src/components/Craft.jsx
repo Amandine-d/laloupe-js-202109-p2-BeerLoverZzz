@@ -1,7 +1,10 @@
+import Bee from './Bee';
+
 function Craft() {
   return (
     <div>
-      <p>This is home</p>
+      <p style={{ height: '80vh' }}>This is Craft</p>
+      <Bee />;
     </div>
   );
 }
