@@ -44,6 +44,13 @@
   transform: scale(1.1, 1.1);
 }
 
+#beer__of__the__month {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media screen and (max-width: 1200px) {
   .card__list {
     grid-template-columns: 1fr;

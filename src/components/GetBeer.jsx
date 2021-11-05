@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import './GetBeer.css';
+import DisplayBeer from './DisplayBeer';
 
 export default function GetBeer() {
   const [beerList, setBeerList] = useState([]);
@@ -27,24 +28,7 @@ export default function GetBeer() {
           .filter((strong) => (strongBeer ? strong.abv > 6 : strong))
           .filter((bitter) => (bitterBeer ? bitter.ibu > 50 : bitter))
           .map((list) => {
-            return (
-              <div className="card__beer">
-                <div className="beer__left">
-                  <img
-                    src={list.image_url}
-                    alt="beer"
-                    className="beer__left__img"
-                  />
-                  <p className="beer__name__abv">{list.abv}</p>
-                </div>
-                <div className="beer__right">
-                  <h3 className="beer__right__name">{list.name}</h3>
-                  <p className="beer__right__ibu">{list.ibu}</p>
-                  <p className="beer__right__tagline">{list.tagline}</p>
-                  <p className="beer__right__description">{list.desription}</p>
-                </div>
-              </div>
-            );
+            return <DisplayBeer beer={list} />;
           })}
       </div>
     </div>

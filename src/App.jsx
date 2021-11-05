@@ -5,7 +5,6 @@ import Craft from './components/Craft';
 import Favourites from './components/Favourites';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import Bee from './components/Bee';
 import Header from './components/Header';
 
 function App() {
@@ -20,7 +19,6 @@ function App() {
           <Route path="/favourites" component={Favourites} />
           <Route path="/contact" component={Contact} />
         </Switch>
-        <Bee />
       </div>
       <Footer />
     </div>
