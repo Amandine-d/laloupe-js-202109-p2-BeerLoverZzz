@@ -1,5 +1,4 @@
 import Beers from './Beers';
-import like from '../images/like.png';
 import './Brewery.css';
 import Bee from './Bee';
 import brewdog from '../images/brewdog_logo.svg';
@@ -11,9 +10,6 @@ function Brewery() {
     <div>
       <p>This is Brewery</p>
       <Beers />
-      <button type="button" className="button__like">
-        <img src={like} alt="like-button" className="button__like" />
-      </button>
       <Bee
         linkOne={
           <a href="https://www.brewdog.com/uk/">

@@ -39,14 +39,14 @@ ul {
   justify-content: center;
   align-items: center;
   position: fixed;
-  right: -100;
+  right: 0;
   bottom: 0;
-  width: 0;
+  width: 100vw;
   height: 100vh;
   padding: 2rem;
-  visibility: hidden;
   background-color: black;
   transition: all 0.8s ease-out;
+  z-index: 6;
 }
 
 .navbar__burger {
@@ -58,12 +58,6 @@ ul {
   height: 40px;
   background: transparent;
   border: none;
-}
-
-.show-nav .navbar__links {
-  width: 100vw;
-  right: 0;
-  visibility: visible;
 }
 
 .navbar__burger:hover {

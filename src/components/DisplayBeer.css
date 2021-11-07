@@ -1,0 +1,11 @@
+.button__like {
+  height: 50px;
+  background-color: transparent;
+  color: transparent;
+  border-color: transparent;
+}
+
+#button__like {
+  background-color: transparent;
+  border-color: transparent;
+}

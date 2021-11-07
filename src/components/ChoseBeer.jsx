@@ -1,10 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 function ChoseBeer(img, name, description, tagline) {
-  const [favourite, setFavourite] = useState(false);
-  const handleClickFavourite = () => setFavourite(!favourite);
-  const handleKeyUp = () => setFavourite(!favourite);
-
   return (
     <div className="itemContainer">
       <div className="leftContainer">
@@ -17,14 +13,6 @@ function ChoseBeer(img, name, description, tagline) {
           <p>{tagline}</p>
         </div>
       </div>
-      <button
-        id="favourite"
-        onClick={handleClickFavourite}
-        onKeyUp={handleKeyUp}
-        type="button"
-        aria-label="save"
-        className={favourite ? 'isFavourite' : 'notFavourite'}
-      />
     </div>
   );
 }
