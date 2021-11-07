@@ -3,7 +3,7 @@ import React from 'react';
 function Favourites() {
   return (
     <div>
-      <p style={{ height: '80vh' }}>This is Favourites</p>
+      <p style={{ height: 'auto' }}>This is Favourites</p>
     </div>
   );
 }
