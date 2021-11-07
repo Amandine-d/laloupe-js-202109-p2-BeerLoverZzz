@@ -20,16 +20,19 @@ function Brewery() {
             <img src={brewdog} alt="brewdog logo" />
           </a>
         }
+        text1="A link to the brewery"
         linkTwo={
           <a href="https://www.brewdog.com/blog/brewdog-columbus-and-the-end-of-history">
             <img src={beerMonth} alt="beer of the month" />
           </a>
         }
+        text2="An history of the beer"
         linkThree={
           <a href="https://untappd.com/brewdogbrewery">
             <img src={untappd} alt="link to untappd" />
           </a>
         }
+        text3="The brewery on our favourite social network"
       />
     </div>
   );

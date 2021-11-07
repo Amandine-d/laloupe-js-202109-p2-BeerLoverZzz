@@ -8,6 +8,10 @@
   border: 2px solid black;
 }
 
+.button__bee {
+  border: 0;
+}
+
 ul {
   list-style: none;
   text-decoration: none;
