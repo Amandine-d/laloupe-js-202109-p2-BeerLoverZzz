@@ -21,6 +21,7 @@ function Header() {
               activeClassName="navbar__link"
               to="Home"
               className="navlink__header"
+              onClick={handleShowLinks}
             >
               Home
             </NavLink>
@@ -30,6 +31,7 @@ function Header() {
               activeClassName="navbar__link"
               to="Brewery"
               className="navlink__header"
+              onClick={handleShowLinks}
             >
               Brewery
             </NavLink>
@@ -39,6 +41,7 @@ function Header() {
               activeClassName="navbar__link"
               to="Favourites"
               className="navlink__header"
+              onClick={handleShowLinks}
             >
               Favourites
             </NavLink>
@@ -48,6 +51,7 @@ function Header() {
               activeClassName="navbar__link"
               to="Craft"
               className="navlink__header"
+              onClick={handleShowLinks}
             >
               Craft
             </NavLink>
@@ -57,6 +61,7 @@ function Header() {
               activeClassName="navbar__link"
               to="Contact"
               className="navlink__header"
+              onClick={handleShowLinks}
             >
               Contact
             </NavLink>
