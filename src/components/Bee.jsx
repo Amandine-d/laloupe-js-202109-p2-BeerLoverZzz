@@ -3,7 +3,7 @@ import img from '../images/little-bee.png';
 import './Bee.css';
 
 function Bee({ linkOne, linkTwo, linkThree, introLine, text1, text2, text3 }) {
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
   return (
     <div>
       <div>
