@@ -14,12 +14,12 @@ function Bee({
   altTwo,
   altThree,
 }) {
-  const [show, setShow] = useState(false);
+  const [showBee, setShowBee] = useState(false);
   return (
     <div>
       <div>
         <button
-          onClick={() => setShow(!show)}
+          onClick={() => setShowBee(!showBee)}
           type="button"
           className="button__bee"
         >
@@ -27,27 +27,29 @@ function Bee({
         </button>
       </div>
       <div className="bee__menu">
-        {show ? (
+        {showBee ? (
           <nav className="bee__links">
             <h4 className="intro__bee">{introLine}</h4>
             <div className="links__facts">
-              <div>
-                <p className="links__item">
-                  <a href={linkOne}>
-                    <img src={imgOne} alt={altOne} />
-                  </a>
-                </p>
-                <p className="links__item">
-                  <a href={linkTwo}>
-                    <img src={imgTwo} alt={altTwo} />
-                  </a>
-                </p>
-                <p className="links__item">
-                  <a href={linkThree}>
-                    <img src={imgThree} alt={altThree} />
-                  </a>
-                </p>
-              </div>
+              <p className="links__item">
+                <a href={linkOne}>
+                  <img src={imgOne} alt={altOne} className="img__bee__link" />
+                </a>
+              </p>
+              <p className="links__item">
+                <a href={linkTwo}>
+                  <img src={imgTwo} alt={altTwo} className="img__bee__link" />
+                </a>
+              </p>
+              <p className="links__item">
+                <a href={linkThree}>
+                  <img
+                    src={imgThree}
+                    alt={altThree}
+                    className="img__bee__link"
+                  />
+                </a>
+              </p>
             </div>
           </nav>
         ) : null}
