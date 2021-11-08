@@ -27,8 +27,8 @@ export default function GetBeer() {
         {beerList
           .filter((strong) => (strongBeer ? strong.abv > 6 : strong))
           .filter((bitter) => (bitterBeer ? bitter.ibu > 50 : bitter))
-          .map((list) => {
-            return <DisplayBeer beer={list} />;
+          .map((beer) => {
+            return <DisplayBeer key={beer.id} beer={beer} />;
           })}
       </div>
     </div>
