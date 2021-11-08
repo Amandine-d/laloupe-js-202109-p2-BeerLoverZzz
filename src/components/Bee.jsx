@@ -19,17 +19,19 @@ function Bee({ linkOne, linkTwo, linkThree, introLine, text1, text2, text3 }) {
         {show ? (
           <nav className="bee__links">
             <h4 className="intro__bee">{introLine}</h4>
-            <ul className="links__facts">
-              <li className="links__item">
-                {linkOne} <p className="text__fact">{text1}</p>
-              </li>
-              <li className="links__item">
-                {linkTwo} <p className="text__fact">{text2}</p>
-              </li>
-              <li className="links__item">
-                {linkThree} <p className="text__fact">{text3}</p>
-              </li>
-            </ul>
+            <div className="links__facts">
+              <div>
+                <p className="links__item">
+                  {linkOne} <p className="text__fact">{text1}</p>
+                </p>
+                <p className="links__item">
+                  {linkTwo} <p className="text__fact">{text2}</p>
+                </p>
+                <p className="links__item">
+                  {linkThree} <p className="text__fact">{text3}</p>
+                </p>
+              </div>
+            </div>
           </nav>
         ) : null}
       </div>

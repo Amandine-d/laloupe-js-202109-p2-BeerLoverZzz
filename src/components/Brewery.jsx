@@ -11,6 +11,7 @@ function Brewery() {
       <p>This is Brewery</p>
       <Beers />
       <Bee
+        introLine="Do you want to know more about the brewery?"
         linkOne={
           <a href="https://www.brewdog.com/uk/">
             <img src={brewdog} alt="brewdog logo" />
