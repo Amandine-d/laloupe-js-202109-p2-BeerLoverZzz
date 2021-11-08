@@ -2,7 +2,18 @@ import { useState } from 'react';
 import img from '../images/little-bee.png';
 import './Bee.css';
 
-function Bee({ linkOne, linkTwo, linkThree, introLine, text1, text2, text3 }) {
+function Bee({
+  linkOne,
+  imgOne,
+  linkTwo,
+  imgTwo,
+  linkThree,
+  imgThree,
+  introLine,
+  altOne,
+  altTwo,
+  altThree,
+}) {
   const [show, setShow] = useState(false);
   return (
     <div>
@@ -22,13 +33,19 @@ function Bee({ linkOne, linkTwo, linkThree, introLine, text1, text2, text3 }) {
             <div className="links__facts">
               <div>
                 <p className="links__item">
-                  {linkOne} <p className="text__fact">{text1}</p>
+                  <a href={linkOne}>
+                    <img src={imgOne} alt={altOne} />
+                  </a>
                 </p>
                 <p className="links__item">
-                  {linkTwo} <p className="text__fact">{text2}</p>
+                  <a href={linkTwo}>
+                    <img src={imgTwo} alt={altTwo} />
+                  </a>
                 </p>
                 <p className="links__item">
-                  {linkThree} <p className="text__fact">{text3}</p>
+                  <a href={linkThree}>
+                    <img src={imgThree} alt={altThree} />
+                  </a>
                 </p>
               </div>
             </div>
