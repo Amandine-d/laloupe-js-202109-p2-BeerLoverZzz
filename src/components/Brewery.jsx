@@ -12,23 +12,15 @@ function Brewery() {
       <Beers />
       <Bee
         introLine="Do you want to know more about the brewery?"
-        linkOne={
-          <a href="https://www.brewdog.com/uk/">
-            <img src={brewdog} alt="brewdog logo" />
-          </a>
-        }
-        text1="A link to the brewery"
-        linkTwo={
-          <a href="https://www.brewdog.com/blog/brewdog-columbus-and-the-end-of-history">
-            <img src={beerMonth} alt="beer of the month" />
-          </a>
-        }
-        text2="An history of the beer"
-        linkThree={
-          <a href="https://untappd.com/brewdogbrewery">
-            <img src={untappd} alt="link to untappd" />
-          </a>
-        }
+        linkOne="https://www.brewdog.com/uk/"
+        imgOne={brewdog}
+        altOne="brewdog logo"
+        linkTwo="https://www.brewdog.com/blog/brewdog-columbus-and-the-end-of-history"
+        imgTwo={beerMonth}
+        altTwo="beer of the month"
+        linkThree="https://untappd.com/brewdogbrewery"
+        imgThree={untappd}
+        altThree="link to untappd"
         text3="The brewery on our favourite social network"
       />
     </div>
