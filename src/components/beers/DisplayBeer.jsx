@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import like from '../images/like.png';
+import like from '../../images/like.png';
 import './DisplayBeer.css';
 
 const DisplayBeer = ({ beer }) => {

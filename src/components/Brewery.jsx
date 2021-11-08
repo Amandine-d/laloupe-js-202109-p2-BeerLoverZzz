@@ -1,4 +1,4 @@
-import Beers from './Beers';
+import Beers from './beers/Beers';
 import './Brewery.css';
 import Bee from './Bee';
 import brewdog from '../images/brewdog_logo.svg';
