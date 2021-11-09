@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import './Header.css';
-import logo from '../images/bee-logo.png';
+import logo from '../../images/bee-logo.png';
 
 function Header() {
   const [showLinks, setShowLinks] = useState(false);

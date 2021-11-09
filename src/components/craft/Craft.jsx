@@ -1,7 +1,7 @@
-import Bee from './Bee';
-import womenBeer from '../images/women_beer.jpg';
-import brewMonk from '../images/brewMonk.png';
-import hops from '../images/hops.jpeg';
+import Bee from '../bee/Bee';
+import womenBeer from '../../images/women_beer.jpg';
+import brewMonk from '../../images/brewMonk.png';
+import hops from '../../images/hops.jpeg';
 
 function Craft() {
   return (
