@@ -5,11 +5,14 @@ import brewdog from '../../images/brewdog_logo.svg';
 import untappd from '../../images/untappd.png';
 import beerMonth from '../../images/beer_of_the_month.jpeg';
 
-function Brewery() {
+function Brewery({ favouriteBeer, setFavouriteBeer }) {
   return (
     <div>
       <p>This is Brewery</p>
-      <Beers />
+      <Beers
+        favouriteBeer={favouriteBeer}
+        setFavouriteBeer={setFavouriteBeer}
+      />
       <Bee
         introLine="Do you want to know more about the brewery?"
         linkOne="https://www.brewdog.com/uk/"
