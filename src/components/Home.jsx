@@ -40,7 +40,7 @@ function Home() {
           </p>
         </div>
       </div>
-      <Bee introLine="Here to guide you" />
+      <Bee introLine="If you see me at the bottom of a page don't hesitate to click on me, I have so much to say" />
     </div>
   );
 }

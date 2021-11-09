@@ -8,18 +8,16 @@
   border: 2px solid black;
 }
 
-.bee__links {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  right: -100vw;
-  visibility: hidden;
+.button__bee {
+  border: 0;
 }
 
-.bee__links .open__bee__menu {
-  width: 50vw;
-  right: 0;
-  visibility: visible;
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+.bee_links {
+  display: inline-block;
+  flex-wrap: wrap;
 }
