@@ -12,11 +12,6 @@
   border: 0;
 }
 
-ul {
-  list-style: none;
-  text-decoration: none;
-}
-
 .bee_links {
   display: inline-block;
   flex-wrap: wrap;

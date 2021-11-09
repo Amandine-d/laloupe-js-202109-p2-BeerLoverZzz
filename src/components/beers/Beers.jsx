@@ -3,6 +3,8 @@ import axios from 'axios';
 import DisplayBeer from './DisplayBeer';
 import GetBeer from './GetBeer';
 
+/* function to return random beers on top of Brewery page */
+
 const sampleBeer = {
   image_url: 'https://images.punkapi.com/v2/24.png',
   name: 'The End Of History',
