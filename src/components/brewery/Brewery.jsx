@@ -1,9 +1,9 @@
-import Beers from './beers/Beers';
+import Beers from '../beers/Beers';
 import './Brewery.css';
-import Bee from './Bee';
-import brewdog from '../images/brewdog_logo.svg';
-import untappd from '../images/untappd.png';
-import beerMonth from '../images/beer_of_the_month.jpeg';
+import Bee from '../bee/Bee';
+import brewdog from '../../images/brewdog_logo.svg';
+import untappd from '../../images/untappd.png';
+import beerMonth from '../../images/beer_of_the_month.jpeg';
 
 function Brewery({ favouriteBeer, setFavouriteBeer }) {
   return (
