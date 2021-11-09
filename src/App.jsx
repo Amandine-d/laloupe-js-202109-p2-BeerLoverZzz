@@ -11,6 +11,7 @@ import PopUp from './components/PopUp';
 
 function App() {
   const [isAdult, setIsAdult] = useState(false);
+  const [favouriteBeer, setFavouriteBeer] = useState([]);
 
   return (
     <div className="App">
@@ -23,7 +24,12 @@ function App() {
           {isAdult && (
             <>
               <Route path="/home" component={Home} />
-              <Route path="/brewery" component={Brewery} />
+              <Route path="/brewery">
+                <Brewery
+                  favouriteBeer={favouriteBeer}
+                  setFavouriteBeer={setFavouriteBeer}
+                />
+              </Route>
               <Route path="/craft" component={Craft} />
               <Route path="/favourites" component={Favourites} />
               <Route path="/contact" component={Contact} />

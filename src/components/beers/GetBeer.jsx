@@ -3,7 +3,7 @@ import axios from 'axios';
 import './GetBeer.css';
 import DisplayBeer from './DisplayBeer';
 
-export default function GetBeer() {
+export default function GetBeer({ favouriteBeer, setFavouriteBeer }) {
   const [beerList, setBeerList] = useState([]);
   useEffect(() => {
     axios.get('https://api.punkapi.com/v2/beers').then((response) => {
@@ -28,7 +28,14 @@ export default function GetBeer() {
           .filter((strong) => (strongBeer ? strong.abv > 6 : strong))
           .filter((bitter) => (bitterBeer ? bitter.ibu > 50 : bitter))
           .map((beer) => {
-            return <DisplayBeer key={beer.id} beer={beer} />;
+            return (
+              <DisplayBeer
+                key={beer.name}
+                beer={beer}
+                favouriteBeer={favouriteBeer}
+                setFavouriteBeer={setFavouriteBeer}
+              />
+            );
           })}
       </div>
     </div>

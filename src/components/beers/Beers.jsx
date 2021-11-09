@@ -12,7 +12,7 @@ const sampleBeer = {
   abv: '55',
 };
 
-function Beers() {
+function Beers({ favouriteBeer, setFavouriteBeer }) {
   const [beer, setBeer] = useState(sampleBeer);
   const getBeer = () => {
     axios.get('https://api.punkapi.com/v2/beers/random').then((response) => {
@@ -26,9 +26,17 @@ function Beers() {
         Another!
       </button>
       <div id="beer__of__the__month">
-        <DisplayBeer beer={beer} />
+        <DisplayBeer
+          beer={beer}
+          favouriteBeer={favouriteBeer}
+          setFavouriteBeer={setFavouriteBeer}
+        />
       </div>
-      <GetBeer />
+      <GetBeer
+        beer={beer}
+        favouriteBeer={favouriteBeer}
+        setFavouriteBeer={setFavouriteBeer}
+      />
     </div>
   );
 }
