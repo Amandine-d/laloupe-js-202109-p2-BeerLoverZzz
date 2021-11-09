@@ -1,13 +1,13 @@
 import { useState } from 'react';
 import { Switch, Route } from 'react-router-dom';
-import Home from './components/Home';
-import Brewery from './components/Brewery';
-import Craft from './components/Craft';
-import Favourites from './components/Favourites';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import Header from './components/Header';
-import PopUp from './components/PopUp';
+import Home from './components/home/Home';
+import Brewery from './components/brewery/Brewery';
+import Craft from './components/craft/Craft';
+import Favourites from './components/favourites/Favourites';
+import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer';
+import Header from './components/header/Header';
+import PopUp from './components/popup/PopUp';
 
 function App() {
   const [isAdult, setIsAdult] = useState(false);

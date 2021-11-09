@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import img from '../images/little-bee.png';
+import img from '../../images/little-bee.png';
 import './Bee.css';
 
 function Bee({

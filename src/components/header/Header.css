@@ -1,3 +1,39 @@
+.Header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 8vh;
+  background-color: white;
+  box-shadow: 5px 5px 20px black;
+  background-image: url('/src/images/bgyellow.png');
+  background-repeat: no-repeat;
+  background-size: 70vw 40vh;
+  background-position: left -10% top 50%;
+}
+
+.title {
+  display: block;
+  padding: 5px;
+  height: 4.5vh;
+  text-align: center;
+  font-size: 1rem;
+  border: solid 1px;
+  color: black;
+  box-shadow: 5px 5px 15px goldenrod;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li a {
+  text-decoration: none;
+  list-style: none;
+}
+
 ul {
   list-style: none;
   padding: 0;
@@ -111,4 +147,36 @@ ul {
 
 .show-nav .navbar__item {
   transform: translateY(100);
+}
+
+@media screen and (min-width: 900px) {
+  .Header {
+    height: 10vh;
+    background-size: 70vw 47vh;
+  }
+
+  .title {
+    height: 6.5vh;
+    font-size: 1.5rem;
+  }
+
+  .link li {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1380px) {
+  .Header {
+    height: 11vh;
+    background-size: 70vw 57vh;
+  }
+
+  .title {
+    height: 8vh;
+    font-size: 2rem;
+  }
+
+  .link li {
+    font-size: 20px;
+  }
 }

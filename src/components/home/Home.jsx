@@ -1,8 +1,8 @@
-import teamImg from '../images/drinking-team.jpg';
-import barbar from '../images/barbar.png';
+import teamImg from '../../images/drinking-team.jpg';
+import barbar from '../../images/barbar.png';
 import './home.css';
-import Bee from './Bee';
-import breweryOne from '../images/BreweryOne.jpeg';
+import Bee from '../bee/Bee';
+import breweryOne from '../../images/BreweryOne.jpeg';
 
 function Home() {
   return (
