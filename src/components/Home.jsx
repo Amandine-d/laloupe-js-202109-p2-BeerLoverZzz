@@ -2,6 +2,7 @@ import teamImg from '../images/drinking-team.jpg';
 import barbar from '../images/barbar.png';
 import './home.css';
 import Bee from './Bee';
+import breweryOne from '../images/BreweryOne.jpeg';
 
 function Home() {
   return (
@@ -40,7 +41,12 @@ function Home() {
           </p>
         </div>
       </div>
-      <Bee introLine="Here to guide you" />
+      <Bee
+        introLine="If you see me at the bottom of a page don't hesitate to click on me, I have so much to say"
+        linkOne="https://www.brasserielefebvre.be/beer/honeybeer-barbar-blonde-export/"
+        imgOne={breweryOne}
+        altOne="link for brewery"
+      />
     </div>
   );
 }

@@ -1,17 +1,28 @@
-import Beers from './Beers';
-import like from '../images/like.png';
+import Beers from './beers/Beers';
 import './Brewery.css';
 import Bee from './Bee';
+import brewdog from '../images/brewdog_logo.svg';
+import untappd from '../images/untappd.png';
+import beerMonth from '../images/beer_of_the_month.jpeg';
 
 function Brewery() {
   return (
     <div>
       <p>This is Brewery</p>
       <Beers />
-      <button type="button" className="button__like">
-        <img src={like} alt="like-button" className="button__like" />
-      </button>
-      <Bee />
+      <Bee
+        introLine="Do you want to know more about the brewery?"
+        linkOne="https://www.brewdog.com/uk/"
+        imgOne={brewdog}
+        altOne="brewdog logo"
+        linkTwo="https://www.brewdog.com/blog/brewdog-columbus-and-the-end-of-history"
+        imgTwo={beerMonth}
+        altTwo="beer of the month"
+        linkThree="https://untappd.com/brewdogbrewery"
+        imgThree={untappd}
+        altThree="link to untappd"
+        text3="The brewery on our favourite social network"
+      />
     </div>
   );
 }
