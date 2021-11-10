@@ -9,6 +9,7 @@ import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
 import PopUp from './components/popup/PopUp';
 
+
 function App() {
   const [isAdult, setIsAdult] = useState(false);
   const [favouriteBeer, setFavouriteBeer] = useState([]);

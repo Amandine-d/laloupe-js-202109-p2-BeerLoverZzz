@@ -1,9 +1,11 @@
 import React from 'react';
+import Search from '../search/Search';
 
 function Favourites() {
   return (
     <div>
-      <p style={{ height: '80vh' }}>This is Favourites</p>
+      <p>This is Favourites</p>
+      <Search />
     </div>
   );
 }
