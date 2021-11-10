@@ -2,8 +2,6 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-
-  /* justify-content: flex-start; */
   height: 8vh;
   background-image: url('/src/images/bgyellowinvert.png');
   background-repeat: no-repeat;
