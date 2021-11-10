@@ -37,7 +37,6 @@ function App() {
             </>
           )}
         </Switch>
-        {/* <Search /> */}
       </div>
       {isAdult && <Footer />}
     </div>
