@@ -8,7 +8,7 @@ import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
 import PopUp from './components/popup/PopUp';
-// import Search from './components/search/Search';
+
 
 function App() {
   const [isAdult, setIsAdult] = useState(false);
